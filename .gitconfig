@@ -1,0 +1,9 @@
+[user]
+	name = YutaroKikuchi
+	email = yusan1871@gmail.com
+[core]
+	quotepath = false
+	editor = vim -c \"set fenc=utf-8\"
+[alias]
+	tree = log --graph --date=iso --pretty='[%ad]%C(auto) %h%d %Cgreen%an%Creset : %s'
+  log-all = log --graph --all --color --pretty='%x09h %cn%x09%s %Cred%d%Creset'
