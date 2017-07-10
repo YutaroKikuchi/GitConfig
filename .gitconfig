@@ -6,4 +6,4 @@
 	editor = vim -c \"set fenc=utf-8\"
 [alias]
 	tree = log --graph --date=iso --pretty='[%ad]%C(auto) %h%d %Cgreen%an%Creset : %s'
-  log-all = log --graph --all --color --pretty='%x09h %cn%x09%s %Cred%d%Creset'
+  log-all = log --pretty=format:\"%C(yellow)%h %C(White)%ad | %C(White)%s%C(Green)%d %C(Red)[%an]\" --graph --date=short
